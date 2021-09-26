@@ -4,7 +4,7 @@ import * as React from "react"
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: "-apple-system, Arial, sans-serif, serif",
 }
 const headingStyles = {
   marginTop: 0,
@@ -129,7 +129,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Perfect Path</title>
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -140,7 +140,7 @@ const IndexPage = () => {
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
+        update in real-time. I'm editing it now!{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
